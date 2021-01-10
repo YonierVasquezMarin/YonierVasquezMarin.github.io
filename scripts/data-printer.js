@@ -1,5 +1,5 @@
 /*  Created in 07/12/2020. You can use this freely.
-    Author: Yonier Vasquez Marin (link github) */
+    Author: Yonier Vasquez Marin (yoniervasquezmarin.github.io) */
 
     var mainElement = document.getElementById("main");
 
