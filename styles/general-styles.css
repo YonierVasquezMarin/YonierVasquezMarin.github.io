@@ -1,0 +1,155 @@
+/*  Created in 07/12/2020. You can use this freely.
+    Author: Yonier Vasquez Marin (link github)*/
+
+* {
+    font-family: sans-serif;
+}
+
+html {
+    background-color: mediumseagreen;
+}
+
+    body {
+        max-width: 560px;
+        padding: 16px;
+        margin: 26px auto 0 auto;
+
+    }
+
+        .boxs {
+            border-radius: 6px;
+            margin: 0 0 14px 0;
+        }
+
+        header {
+            padding: 5px;
+            background-color: #87e08a;
+            border: solid;
+            border-color: #105010;
+            min-height: 37px;
+        }
+
+            #title {
+                margin: 0px;
+            }
+
+
+
+
+
+
+/* Box for app details */
+
+.apps-details {
+    padding: 15px;
+    margin: 44px 0px;
+    border: solid;
+    border-color: #efebeb;
+    background-color: #8ed3ad;
+}   @supports (display: grid) {
+        .apps-details {
+            display: grid;
+            grid-template-columns: 26% 74%;
+            background-color: #ffffff6b;
+        }
+    }
+
+    .sectionA {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }   @supports (display: grid) {
+            .sectionA {
+                display: block;
+                width: auto;
+            }
+        }
+
+        .app-icon {
+            width: 91%;
+        }   @supports (display: grid) {
+                .app-icon {
+                    width: 85%;
+                }
+            }
+
+
+    .sectionB {
+        display: inline-block;
+        width: 64%;
+    }   @supports (display: grid) {
+            .sectionB {
+                margin-left: 11px;
+                display: block;
+                width: auto;
+            }
+        }
+
+        .app-details-box {
+            padding: 6px;
+        }
+        
+        .app-name {
+            background-color: #f56031;
+        }
+
+            .app-link {
+                color: inherit;
+                text-decoration: none;
+            }
+
+        .app-version {
+            background-color: #dac82c;
+        }
+
+        .app-description {
+            background-color: #59b55c;
+            font-size: 17px;
+        }
+
+        .pwa-icon {
+            width: 50px;
+            margin: 0px;
+            background-color: #4CAF50;
+            padding: 7px;
+            float: right;
+        }
+
+
+
+
+
+
+/* Page's footer */
+
+footer {
+    background-color: #1b4a61;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+    #lang-section {
+        text-align: center;
+        line-height: 29px;
+        margin-bottom: 15px;
+    }
+
+    .lang {
+        margin: 0 5px;
+        font-weight: 700;
+        color: aqua;
+        text-decoration: none;
+    }
+
+
+    #date-section {
+        margin: 0 20px;
+        font-size: x-large;
+        font-weight: bold;
+        color: white;
+    }
+
+    #version {
+        float: right;
+    }
