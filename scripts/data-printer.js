@@ -39,7 +39,7 @@
                     //Si es una PWA
                     if (apps[app_index].is_PWA) {
                         img2Element.className = "boxs pwa-icon";
-                        img2Element.src = "res/imgs/PWA-icon.png";
+                        img2Element.src = "assets/imgs/PWA-icon.png";
                         img2Element.alt = "PWA icon";
                     }
         
