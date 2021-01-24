@@ -3,13 +3,13 @@
 
 var apps = [
     {
-        //app 1 : Hola Mundo
-        icon_URL: "",
-        app_name: "Hola, mundo",
-        app_link: "https://www.google.com",
-        version: "1.0",
-        last_modification: "07/12/2020",
-        description: "Descripción en Español",
+        //app 1 : Mi app PWA
+        icon_URL: "https://yoniervasquezmarin.github.io/Mi-app-PWA/assets/imgs/icon-512x512.png",
+        app_name: "Mi app PWA",
+        app_link: "https://yoniervasquezmarin.github.io/Mi-app-PWA/",
+        version: "2.0",
+        last_modification: "24/01/2021",
+        description: "Enterate de datos simples y sencillos para aprender a crear una PWA",
         is_PWA: true
     }
 ]
