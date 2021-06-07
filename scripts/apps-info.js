@@ -11,5 +11,15 @@ var apps = [
         last_modification: "24/01/2021",
         description: "Enterate de datos simples y sencillos para aprender a crear una PWA",
         is_PWA: true
+    },
+    {
+        //app2: SurAmerica Airlines
+        icon_URL: "../assets/imgs/icon-suramerica.png",
+        app_name: "SurAmerica Airlines",
+        app_link: "https://suramerica-airlines.netlify.app/",
+        version: "1.0",
+        last_modification: "15/05/2021",
+        description: "Invitar a potenciales clientes para adquirir un vuelo con esta aerolínea. Cuenta con formulario de compras y un carrito de compras.",
+        is_PWA: false
     }
 ]
