@@ -35,7 +35,7 @@
                                 + " " + apps[app_index].last_modification);
         pElement.className = "boxs app-description app-details-box";
         pElement.innerHTML = "<strong>Descripción: </strong>"
-                                + apps[app_index].description + ".";
+                                + apps[app_index].description;
                     //Si es una PWA
                     if (apps[app_index].is_PWA) {
                         img2Element.className = "boxs pwa-icon";
