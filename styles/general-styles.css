@@ -1,5 +1,5 @@
 /*  Created in 07/12/2020. You can use this freely.
-    Author: Yonier Vasquez Marin (link github)*/
+    Author: Yonier Vasquez Marin (yoniervasquezmarin.github.io)*/
 
 * {
     font-family: sans-serif;
@@ -125,8 +125,38 @@ html {
         }
 
 
+/* Certificates section */
+#certificates-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: #1b4a61;
+    padding: 13px 24px;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+}
 
+#certificates-list {
+    padding: 0 24px;
+}
 
+    .certificate-item {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .certificate-icon {
+        font-size: 33px !important;
+        margin-right: 7px;
+        color: #0a7a13;
+    }
+
+    .certificate-link {
+        align-self: center;
+        text-decoration: none;
+        color: #0d0c52;
+        font-size: 21px;
+    }
 
 
 /* Page's footer */
@@ -136,6 +166,7 @@ footer {
     padding: 10px;
     border-radius: 6px;
     margin-bottom: 30px;
+    margin-top: 19px;
 }
 
     #lang-section {
