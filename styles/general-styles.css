@@ -22,15 +22,23 @@ html {
         }
 
         header {
-            padding: 5px;
+            padding: 18px;
             background-color: #87e08a;
             border: solid;
             border-color: #105010;
             min-height: 37px;
+            display: flex;
+            align-items: center;
         }
+            #briefcase-icon {
+                font-size: 34px;
+                color: #871f1f;
+                margin: 0 13px 0 0px;
+            }
 
             #title {
                 margin: 0px;
+                color: #363333;
             }
 
 
@@ -77,6 +85,7 @@ html {
     .sectionB {
         display: inline-block;
         width: 64%;
+        color: #363333;
     }   @supports (display: grid) {
             .sectionB {
                 margin-left: 11px;
